@@ -39,7 +39,7 @@ public class JavaReadFile {
         {
             for(String str: bNames) 
             {
-                writer.write(str + ", ");
+                writer.write(str + "\n ");
             }
             
         }
