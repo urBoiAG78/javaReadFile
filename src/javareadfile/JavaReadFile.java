@@ -35,7 +35,7 @@ public class JavaReadFile {
             System.exit(0);
         }
         
-        try(FileWriter writer = new FileWriter("SortedBoyNames.txt"))
+        try(BufferedWriter writer = new BufferedWriter(new FileWriter("SortedBoysName.txt")))
         {
             for(String str: bNames) 
             {
